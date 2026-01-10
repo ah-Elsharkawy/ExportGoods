@@ -88,6 +88,7 @@ html[dir="rtl"] .header-logo {
   width: auto;
   object-fit: contain;
   pointer-events: auto;
+  /* cursor: pointer; */
 }
 
 .logo-placeholder {

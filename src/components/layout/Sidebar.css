@@ -69,6 +69,7 @@ html[dir="rtl"] .sidebar.open {
   height: 100%;
   width: auto;
   object-fit: contain;
+  /* cursor: pointer; */
 }
 
 .sidebar-logo-placeholder {

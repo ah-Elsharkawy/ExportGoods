@@ -11,25 +11,29 @@ const PackagingView: React.FC = () => {
       id: 1,
       nameEn: "Plastic Bags",
       nameAr: "أكياس بلاستيكية",
-      image: "https://via.placeholder.com/300x300?text=Plastic+Bags",
+      image:
+        "https://images.unsplash.com/photo-1681373319693-0f5f3afe8485?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBsYXN0aWMlMjBiYWd8ZW58MHx8MHx8fDI%3D",
     },
     {
       id: 2,
       nameEn: "Cardboard Boxes",
       nameAr: "صناديق كرتون",
-      image: "https://via.placeholder.com/300x300?text=Cardboard+Boxes",
+      image:
+        "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=500",
     },
     {
       id: 3,
       nameEn: "Mesh Bags",
       nameAr: "أكياس شبكية",
-      image: "https://via.placeholder.com/300x300?text=Mesh+Bags",
+      image:
+        "https://images.unsplash.com/photo-1601654847192-c4b3e13817e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVzaCUyMGJhZ3xlbnwwfHwwfHx8Mg%3D%3D",
     },
     {
       id: 4,
       nameEn: "Wooden Crates",
       nameAr: "صناديق خشبية",
-      image: "https://via.placeholder.com/300x300?text=Wooden+Crates",
+      image:
+        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500",
     },
   ];
 
