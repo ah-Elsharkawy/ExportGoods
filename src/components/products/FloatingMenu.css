@@ -6,7 +6,6 @@
   z-index: var(--z-sticky);
   display: flex;
   flex-direction: column;
-  box-shadow: var(--shadow-lg);
 }
 
 html[dir="rtl"] .floating-menu {
@@ -32,20 +31,21 @@ html[dir="rtl"] .floating-menu {
 .floating-menu-item:first-child {
   border-top-left-radius: var(--radius-lg);
   border-top-right-radius: var(--radius-lg);
-  border-bottom: 1px solid var(--color-border);
+  /* border-bottom: 1px solid var(--color-border); */
 }
 
 /* Last button - bottom rounded corners */
 .floating-menu-item:last-child {
   border-bottom-left-radius: var(--radius-lg);
   border-bottom-right-radius: var(--radius-lg);
-  border-top: 1px solid var(--color-border);
+  /* border-top: 1px solid var(--color-border); */
 }
 
 /* Middle buttons - no rounded corners on touching edges */
 .floating-menu-item:not(:first-child):not(:last-child) {
-  border-top: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
+  /* border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border); */
+  border: 1px solid var(--color-border);
 }
 
 .floating-menu-item:hover {
@@ -101,34 +101,40 @@ html[dir="rtl"] .floating-menu-item:hover {
   /* Adjust rounding for horizontal layout */
   .floating-menu-item:first-child {
     border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     border-bottom-left-radius: var(--radius-lg);
-    border-bottom: 2px solid var(--color-border);
-    border-right: 1px solid var(--color-border);
+    border-top-left-radius: var(--radius-lg);
+    /* border-bottom: 2px solid var(--color-border);
+    border-right: 1px solid var(--color-border); */
+    border: 1px solid var(--color-border);
   }
 
   .floating-menu-item:last-child {
     border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: var(--radius-lg);
     border-bottom-right-radius: var(--radius-lg);
-    border-top: 2px solid var(--color-border);
-    border-left: 1px solid var(--color-border);
+    /* border-top: 2px solid var(--color-border);
+    border-left: 1px solid var(--color-border); */
+    border: 1px solid var(--color-border);
   }
 
   html[dir="rtl"] .floating-menu-item:first-child {
-    border-right: 2px solid var(--color-border);
-    border-left: 1px solid var(--color-border);
-    border-top-left-radius: var(--radius-lg);
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: var(--radius-lg);
+    /* border-right: 2px solid var(--color-border);
+    border-left: 1px solid var(--color-border); */
+    border: 1px solid var(--color-border);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: var(--radius-lg);
+    border-bottom-right-radius: var(--radius-lg);
   }
 
   html[dir="rtl"] .floating-menu-item:last-child {
-    border-left: 2px solid var(--color-border);
-    border-right: 1px solid var(--color-border);
-    border-top-right-radius: var(--radius-lg);
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: var(--radius-lg);
+    border-top-left-radius: var(--radius-lg);
   }
 
   .floating-menu-item:hover {
