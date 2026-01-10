@@ -5,7 +5,7 @@ import Button from "@/components/common/Button";
 import "./ContactUs.css";
 
 const ContactUs: React.FC = () => {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({
     name: "",
     email: "",

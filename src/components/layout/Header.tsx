@@ -1,5 +1,4 @@
 import React from "react";
-import { useLanguage } from "@/context/LanguageContext";
 import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 import "./Header.css";
 
@@ -9,7 +8,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ onMenuClick, isMenuOpen }) => {
-  const { isRTL } = useLanguage();
+  //   const { isRTL } = useLanguage();
 
   return (
     <header className="header">

@@ -8,7 +8,7 @@ import Loader from "@/components/common/Loader";
 import "./ProductsView.css";
 
 const ProductsView: React.FC = () => {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const [selectedCategory, setSelectedCategory] =
     useState<ProductCategory>("fruits");
   const { products, loading, error } = useProducts(selectedCategory);
