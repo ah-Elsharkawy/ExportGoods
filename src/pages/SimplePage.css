@@ -1,0 +1,52 @@
+.simple-page {
+  min-height: 100vh;
+  padding-top: var(--header-height);
+}
+
+.page-header {
+  background-color: var(--color-primary);
+  color: white;
+  padding: var(--spacing-2xl) 0;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.page-content {
+  padding: var(--spacing-3xl) var(--spacing-lg);
+  max-width: 900px;
+}
+
+.content-block {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.content-block h2 {
+  font-size: 1.75rem;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.content-block p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .content-block h2 {
+    font-size: 1.5rem;
+  }
+
+  .content-block p {
+    font-size: 1rem;
+  }
+}
