@@ -58,8 +58,8 @@ const Home: React.FC = () => {
                 ? heroContent.contentEn
                 : heroContent.contentAr
               : language === "en"
-              ? "Fresh fruits and vegetables delivered to your doorstep"
-              : "فواكه وخضروات طازجة توصل إلى باب منزلك"}
+              ? "First grade fruits and vegetables delivered to you"
+              : "فواكه وخضروات من الدرجة الأولى يتم توصيلها إليك"}
           </p>
           <div className="hero-actions">
             <Button size="large" onClick={() => navigate("/products")}>

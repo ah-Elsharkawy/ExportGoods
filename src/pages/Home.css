@@ -57,6 +57,7 @@
   gap: var(--spacing-md);
   justify-content: center;
   flex-wrap: wrap;
+  color: white !important;
 }
 
 /* Content Sections */
@@ -136,6 +137,7 @@
 
   .hero-actions button {
     width: 100%;
+    color: white;
   }
 
   .content-section {
