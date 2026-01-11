@@ -26,7 +26,7 @@ const PackagingView: React.FC = () => {
       nameEn: "Mesh Bags",
       nameAr: "أكياس شبكية",
       image:
-        "https://images.unsplash.com/photo-1601654847192-c4b3e13817e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVzaCUyMGJhZ3xlbnwwfHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1601654847192-c4b3e13817e2?w=600",
     },
     {
       id: 4,
